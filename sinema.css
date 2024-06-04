@@ -1,0 +1,40 @@
+
+/* ilk sıra */
+#agrup{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: 150px;
+    left: 460px;
+    
+}
+
+/* ikinci sıra */
+#bgrup{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: 190px;
+    left: 460px;
+
+
+
+}
+
+/* en son bilet alma  */
+#ba{
+    position: relative;
+    float: right;
+    top: 50px;
+    right: 20px;
+}
+
+
+/* en güzel anlardan bir */
+#alışverişticareti{
+    position: absolute;
+    bottom: 2px;
+    height: 60px;
+    width: 1500px;
+    border: solid 1px red;
+}
