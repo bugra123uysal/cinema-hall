@@ -4,8 +4,8 @@
     position: relative;
     height: 40px;
     width: 40px;
-    top: 150px;
-    left: 460px;
+    top: 220px;
+    left: 380px;
     
 }
 
@@ -14,11 +14,23 @@
     position: relative;
     height: 40px;
     width: 40px;
-    top: 190px;
-    left: 460px;
+    top: 260px;
+    left: 380px;
 
 
 
+}
+
+/* üçüncü sıra */
+#cgrup{
+    position: relative;
+    top: 300px;
+    left: 380px;
+    height: 40px;
+    width: 40px;
+
+
+    
 }
 
 /* en son bilet alma  */
@@ -27,6 +39,14 @@
     float: right;
     top: 50px;
     right: 20px;
+}
+
+/* bilet fiyatı yazacak yer */
+#gfnr{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    
 }
 
 
@@ -38,3 +58,20 @@
     width: 1500px;
     border: solid 1px red;
 }
+
+#fiyat{
+    position: absolute;
+    right: 20px;
+}
+/* gösterim ekranı */
+#ekr{
+    position: absolute;
+    text-align: center;
+    left: 650px;
+    top: 90px;
+    height: 70px;
+    width: 140px;
+    border: solid 2px black;
+}
+
+

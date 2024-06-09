@@ -1,10 +1,35 @@
-var adt=parseFloat( document.getElementById("alışverişticareti").value.length);
 
+const bır= document.getElementById("agrup");
+const ıkı= document.getElementById("bgrup");
+const uc= document.getElementById("cgrup");
+const fıadt=document.getElementById("fiyat");
+
+
+bır.addEventListener("click", function(){
+document.getElementById("agrup").style.border="solid 2px red"
+
+
+});
+ıkı.addEventListener("click", function(){
+   document.getElementById("bgrup").style.border="solid 2px red"
+   
+   
+   });
+   uc.addEventListener("click", function(){
+      document.getElementById("cgrup").style.border="solid 2px red"
+      
+      
+      });
+let adt=1;
 function sec(ab){
-   var değeri=alışverişticareti.lenght
 
-   document.getElementById("alışverişticareti").innerHTML+=ab+","
-   document.getElementById("fiyat").innerHTML=değeri*10
+
+   
+
+   document.getElementById("alışverişticareti").innerHTML+=ab+",";
+
+   var adtgör= document.getElementById("fiyat").innerHTML= adt
+ fıadt.textContent=adt++
 
 
 
@@ -13,9 +38,12 @@ function sec(ab){
 
 
 /*  en son billet almayı bitirme buttonu  */
+var fvalue= document.getElementById("fiyat")
+
 function tmm(){
-   console.log(adt)
-document.getElementById("fiyat").innerHTML=adt*50
+   
+  document.getElementById("gfnr").innerHTML=adtgör*10
+
 
 }
 
