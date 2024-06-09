@@ -28,7 +28,7 @@ function sec(ab){
 
    document.getElementById("alışverişticareti").innerHTML+=ab+",";
 
-   var adtgör= document.getElementById("fiyat").innerHTML= adt
+   var adtgör= document.getElementById("fiyat").innerHTML= adt +"adet "+ adt*10+"tl"
  fıadt.textContent=adt++
 
 
@@ -42,7 +42,7 @@ var fvalue= document.getElementById("fiyat")
 
 function tmm(){
    
-  document.getElementById("gfnr").innerHTML=adtgör*10
+  document.getElementById("gfnr").innerHTML=adtgör
 
 
 }
